@@ -17,13 +17,13 @@ def sp_Authenticate(username):
 
 r = praw.Reddit(client_id = "dCMP8RkPkfM6-w",
                 client_secret = "2lw2jSKMhoUtoLqaqOxiPeJKKjlrXg",
-                username = "mzig2222",
-                password = "Ziggysmalls22",
+                username = "*******", ##replace with your Reddit username & pass
+                password = "********",
                 user_agent = "freshMixv1")
 
 subs = ["HipHopHeads", "Popheads", "Indieheads"]
 
-username='mzig22222'
+username='*******' #replace with Spotify username
 s = spotipy.Spotify(sp_Authenticate(username))
 
 id = s.me()['id']
